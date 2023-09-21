@@ -1,0 +1,35 @@
+---
+import "../styles/style.css";
+import Card_playlist from "../components/Card_playlist.astro";
+import Nav from "../components/Nav.astro";
+import Main_header from "../components/Main_header.astro"
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro</title>
+	</head>
+	<body>
+		<Nav />
+		<main>
+			<Main_header playlisttext="Spotify-playlister" visalletext="Vis alle"/>
+			<section>
+				
+				<Card_playlist  header="Todays Top Hits" text="Jung Kook is on top of the Hottest 50!">
+					<img src="/65-150x150.jpg" alt="playlist img">
+				</Card_playlist>
+				<Card_playlist  header="RapCaviar" text="New music from Drake, Rod Wave and Doja Cat.">
+					<img src="/68-150x150.jpg" alt="playlist img">
+				</Card_playlist>
+				<Card_playlist  header="All Out 2010s" text="The biggest songs of the 2010s.">
+					<img src="/76-150x150.jpg" alt="playlist img">
+				</Card_playlist>
+			</section>
+
+		</main>
+	</body>
+</html>
