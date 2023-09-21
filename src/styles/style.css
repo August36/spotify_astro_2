@@ -22,10 +22,26 @@ section {
     justify-content: space-around;
 }
 /* ***********Nav********* */
-.tilmeld_btn {
-
+nav {
+    background-color: #101010;
+    display: flex;
+    justify-content: space-between;
 }
-.Logpå_btn
+
+.tilmeld_btn, .Logpå_btn {
+    padding: 15px;
+    width: 120px;
+    border-radius: 25px;
+    background-color: #101010;
+    color: rgb(146, 146, 146);
+    border: none;
+    margin: 10px 0 10px 0;
+}
+.Logpå_btn {
+    background-color: white;
+    color: black;
+}
+
 /* ********main_header******** */
 .main_header {
     display: flex;
