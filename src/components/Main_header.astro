@@ -5,3 +5,16 @@ const {playlisttext, visalletext} = Astro.props
     <h1>{playlisttext}</h1>
     <p class="main_header_p">{visalletext}</p>
 </div>
+
+<style>
+.main_header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  
+  .main_header_p {
+    padding-top: 18px;
+    padding-right: 10px;
+  }
+  </style>

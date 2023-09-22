@@ -1,63 +1,63 @@
 body {
-    background-color: black;
+  background-color: black;
 }
 
-h1, h2 {
-    color: rgb(228, 227, 227);
+h1,
+h2 {
+  color: rgb(228, 227, 227);
 }
 
 h1 {
-    padding-top: 5px;
-    padding-left: 15px;
+  padding-top: 5px;
+  padding-left: 15px;
 }
 
 p {
-    color: rgb(146, 146, 146);
+  color: rgb(146, 146, 146);
 }
 main {
-    background-image: linear-gradient(rgb(33, 33, 33), rgb(20, 20, 20))
+  background-image: linear-gradient(rgb(33, 33, 33), rgb(20, 20, 20));
 }
 section {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 /* ***********Nav********* */
 .tilmeld_btn {
-
 }
 .Logpå_btn
 /* ********main_header******** */
-.main_header {
-    display: flex;
-    justify-content: space-between;
+/* .main_header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
 }
 
 .main_header_p {
-    padding-top: 18px;
-    padding-right: 10px;
-}
+  padding-top: 18px;
+  padding-right: 10px;
+} */
 
 /* *******article******* */
 article {
-    max-width: 200px;
-    background-color: rgb(15, 15, 15);
-    border-radius: 8px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 20px;
-    padding-top: 20px;
-    margin-bottom: 50px;
+  max-width: 200px;
+  background-color: rgb(15, 15, 15);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20px;
+  padding-top: 20px;
+  margin-bottom: 50px;
 }
 article h2 {
-    text-align: center;
+  text-align: center;
 }
 article img {
-    max-width: 90%;
-    display: block;
+  max-width: 90%;
+  display: block;
 }
 article p {
-    margin-left: 10px;
+  margin-left: 10px;
 }
-

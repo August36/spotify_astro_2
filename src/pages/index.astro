@@ -14,7 +14,9 @@ import Main_header from "../components/Main_header.astro"
 		<title>Astro</title>
 	</head>
 	<body>
-		<Nav />
+		<Nav>
+			<img src="../../public/imgs/icons/back-btn.svg" alt="">
+		</Nav>
 		<main>
 			<Main_header playlisttext="Spotify-playlister" visalletext="Vis alle"/>
 			<section>
@@ -46,9 +48,6 @@ import Main_header from "../components/Main_header.astro"
 					<img src="/338-150x150.jpg" alt="playlist img">
 				</Card_playlist>
 			</section>
-			<Nav>
-				<img src="../../public/imgs/icons/back-btn.svg" alt="">
-			</Nav>
 		</main>
 	</body>
 </html>
