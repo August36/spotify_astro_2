@@ -3,8 +3,27 @@
 ---
 <nav>
     <ul>
-        <li><slot /></li>
-        <li><slot /></li>
+        <li><slot />HEEEY</li>
         <li><button class="tilmeld_btn">Tilmeld dig</button><button class="Logpå_btn">Log på</button></li>
     </ul>
 </nav>
+
+<style>
+    ul {
+        display: flex;
+        justify-content: space-between;
+    }
+    .tilmeld_btn, .Logpå_btn {
+        padding: 15px;
+        width: 100px;
+        background-color: white;
+        border-radius: 25px;
+        border: none;
+        margin-right: 10px;
+}
+
+.tilmeld_btn {
+    background-color: black;
+    color: grey;
+}
+</style>
